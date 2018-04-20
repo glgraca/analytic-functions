@@ -1,4 +1,4 @@
-# Count all rows
+# Count All Rows
 
 Sometimes you want to know how many rows you will read before you've looped through all of them. 
 
