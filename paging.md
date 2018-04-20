@@ -1,4 +1,4 @@
-# Paging results
+# Paging Results
 
 When looping through a paged resultset, a few extra columns might help make the code shorter and simpler:
 
