@@ -24,3 +24,6 @@ select month, inflation, (exp(accumulated)-1)*100 from (
   from inflation
 )
 ```
+The accumulated column has sum(ln(1+(inflation/100))) over the current row plus the eleven previous rows (months).
+
+Therefore, the resultset will give you three columns: month, inflation for the current month, and inflation for the last 12 months.
