@@ -1,4 +1,4 @@
-# First row from each partition
+# First Row from each Partition
 
 You want to partition your data and select only the first row from each one.
 
