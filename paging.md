@@ -9,7 +9,7 @@ When looping through a paged resultset, a few extra columns might help make the 
 With these values it is easier to set up the paging links in a web application, for instance.
 
 ```sql
-select table_name, first_name, last_name, total_rows  from (
+select ord, table_name, first_name, last_name, total_rows  from (
  select table_name,
         row_number() over (order by table_name asc) ord,
         count(1) over () total_rows,
