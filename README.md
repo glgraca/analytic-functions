@@ -20,4 +20,4 @@ Select only the first row from each partition
 How to multiply values in an analytic function using exp() and ln()
 
 ## [Ratio do Report](ratio-to-report.md)
-Find how much a value represents as a percentagem of the total
+Find how much a value represents as a percentage of the total
